@@ -28,3 +28,40 @@ ul {
 img {
     max-width: 100%;
 }
+
+.navbar {
+    background: #fff;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+ .navbar ul li a:hover {
+    color: var(--primary-color);
+  }
+  
+  .navbar ul li:last-child a {
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul li:last-child i {
+    margin-right: 10px;
+  }   

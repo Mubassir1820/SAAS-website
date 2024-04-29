@@ -77,3 +77,50 @@ img {
     margin: 0 auto;
     padding: 0 15px;
   }
+
+  .btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    opacity: 0.8;
+  }
+
+  .btn-light {
+    background: var(--light-color);
+    color: #333;
+  }
+  
+  .btn-light:hover {
+    background: opacity(0.8);
+    color: var(--primary-color);
+  }
+  
+  .btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background: opacity(0.8);
+    color: var(--dark-color);
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
